@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-10T12:44:53 EDT" name="Surefire suite" finished-at="2022-08-10T12:45:30 EDT" duration-ms="37556">
+    <groups>
+    </groups>
+    <test started-at="2022-08-10T12:44:53 EDT" name="Surefire test" finished-at="2022-08-10T12:45:30 EDT" duration-ms="37556">
+      <class name="org.selenium.pom.tests.NavigationTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.NavigationTest@3e2e18f2]" started-at="2022-08-10T12:44:53 EDT" name="startDriver" finished-at="2022-08-10T12:44:59 EDT" duration-ms="6609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="NavigateFromHomeToStoreUsingMainMenu()[pri:0, instance:org.selenium.pom.tests.NavigationTest@3e2e18f2]" started-at="2022-08-10T12:44:59 EDT" name="NavigateFromHomeToStoreUsingMainMenu" finished-at="2022-08-10T12:45:05 EDT" duration-ms="5285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateFromHomeToStoreUsingMainMenu -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.NavigationTest@3e2e18f2]" started-at="2022-08-10T12:45:05 EDT" name="quitDriver" finished-at="2022-08-10T12:45:05 EDT" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.NavigationTest -->
+      <class name="org.selenium.pom.tests.CheckoutTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.CheckoutTest@61230f6a]" started-at="2022-08-10T12:44:53 EDT" name="startDriver" finished-at="2022-08-10T12:45:00 EDT" duration-ms="7205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.CheckoutTest@61230f6a]" started-at="2022-08-10T12:44:53 EDT" name="startDriver" finished-at="2022-08-10T12:44:59 EDT" duration-ms="6762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="GuestCheckoutUsingDirectBankTransfer()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@61230f6a]" started-at="2022-08-10T12:44:59 EDT" name="GuestCheckoutUsingDirectBankTransfer" finished-at="2022-08-10T12:45:18 EDT" duration-ms="18944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GuestCheckoutUsingDirectBankTransfer -->
+        <test-method signature="LoginAndCheckoutUsingDirectBankTransfer()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@61230f6a]" started-at="2022-08-10T12:45:00 EDT" name="LoginAndCheckoutUsingDirectBankTransfer" finished-at="2022-08-10T12:45:29 EDT" duration-ms="29376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndCheckoutUsingDirectBankTransfer -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@61230f6a]" started-at="2022-08-10T12:45:18 EDT" name="quitDriver" finished-at="2022-08-10T12:45:20 EDT" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.CheckoutTest@61230f6a]" started-at="2022-08-10T12:45:29 EDT" name="quitDriver" finished-at="2022-08-10T12:45:30 EDT" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.CheckoutTest -->
+      <class name="org.selenium.pom.tests.SearchTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.SearchTest@470f1802]" started-at="2022-08-10T12:44:53 EDT" name="startDriver" finished-at="2022-08-10T12:45:00 EDT" duration-ms="7498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="SearchWithPartialMatch()[pri:0, instance:org.selenium.pom.tests.SearchTest@470f1802]" started-at="2022-08-10T12:45:00 EDT" name="SearchWithPartialMatch" finished-at="2022-08-10T12:45:05 EDT" duration-ms="4908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithPartialMatch -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.SearchTest@470f1802]" started-at="2022-08-10T12:45:05 EDT" name="quitDriver" finished-at="2022-08-10T12:45:06 EDT" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.SearchTest -->
+      <class name="org.selenium.pom.tests.AddToCartTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.AddToCartTest@418e7838]" started-at="2022-08-10T12:44:53 EDT" name="startDriver" finished-at="2022-08-10T12:45:00 EDT" duration-ms="6899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="addToCartFromStorePage()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@418e7838]" started-at="2022-08-10T12:45:00 EDT" name="addToCartFromStorePage" finished-at="2022-08-10T12:45:09 EDT" duration-ms="9056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFromStorePage -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.AddToCartTest@418e7838]" started-at="2022-08-10T12:45:09 EDT" name="quitDriver" finished-at="2022-08-10T12:45:09 EDT" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.AddToCartTest -->
+      <class name="org.selenium.pom.tests.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:org.selenium.pom.tests.LoginTest@3c130745]" started-at="2022-08-10T12:44:53 EDT" name="startDriver" finished-at="2022-08-10T12:44:59 EDT" duration-ms="6389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="loginDuringCheckout()[pri:0, instance:org.selenium.pom.tests.LoginTest@3c130745]" started-at="2022-08-10T12:44:59 EDT" name="loginDuringCheckout" finished-at="2022-08-10T12:45:28 EDT" duration-ms="29146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDuringCheckout -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:org.selenium.pom.tests.LoginTest@3c130745]" started-at="2022-08-10T12:45:28 EDT" name="quitDriver" finished-at="2022-08-10T12:45:29 EDT" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- org.selenium.pom.tests.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

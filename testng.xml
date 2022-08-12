@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/kwame/IdeaProjects/MasterSeleniumFramework">
+        <classes>
+            <class name="org.selenium.pom.tests.AddToCartTest">
+                <methods>
+                    <include name="addToCartFromStorePage"/>
+                    <include name="addToCartFeaturedProducts"/>
+                </methods>
+            </class>
+            <class name="org.selenium.pom.tests.CheckoutTest">
+                <methods>
+                    <include name="GuestCheckoutUsingDirectBankTransfer"/>
+                    <include name="LoginAndCheckoutUsingDirectBankTransfer"/>
+                </methods>
+            </class>
+            <class name="org.selenium.pom.tests.LoginTest">
+                <methods>
+                    <include name="loginDuringCheckout"/>
+                </methods>
+            </class>
+            <class name="org.selenium.pom.tests.NavigationTest">
+                <methods>
+                    <include name="NavigateFromHomeToStoreUsingMainMenu"/>
+                </methods>
+            </class>
+            <class name="org.selenium.pom.tests.SearchTest">
+                <methods>
+                    <include name="SearchWithPartialMatch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

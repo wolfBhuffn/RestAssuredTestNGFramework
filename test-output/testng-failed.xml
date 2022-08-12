@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/kwame/IdeaProjects/MasterSeleniumFramework(failed)">
+    <classes>
+      <class name="org.selenium.pom.tests.NavigationTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="NavigateFromHomeToStoreUsingMainMenu"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.selenium.pom.tests.NavigationTest -->
+      <class name="org.selenium.pom.tests.AddToCartTest">
+        <methods>
+          <include name="addToCartFromStorePage"/>
+          <include name="addToCartFeaturedProducts"/>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.selenium.pom.tests.AddToCartTest -->
+      <class name="org.selenium.pom.tests.CheckoutTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="LoginAndCheckoutUsingDirectBankTransfer"/>
+          <include name="GuestCheckoutUsingDirectBankTransfer"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.selenium.pom.tests.CheckoutTest -->
+      <class name="org.selenium.pom.tests.SearchTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="SearchWithPartialMatch"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.selenium.pom.tests.SearchTest -->
+      <class name="org.selenium.pom.tests.LoginTest">
+        <methods>
+          <include name="loginDuringCheckout"/>
+          <include name="startDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- org.selenium.pom.tests.LoginTest -->
+    </classes>
+  </test> <!-- C:/Users/kwame/IdeaProjects/MasterSeleniumFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
